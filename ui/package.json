@@ -46,7 +46,13 @@
         "lint:fix": "eslint . --fix",
         "taze": "taze"
     },
+    "workspaces": [
+        "packages/*"
+    ],
     "dependencies": {
+        "@htui/request": "workspace:*",
+        "@htui/types": "workspace:*",
+        "@htui/utils": "workspace:*",
         "@iconify-json/lucide": "^1.2.46",
         "@iconify-json/vscode-icons": "^1.2.22",
         "@nuxt/fonts": "^0.11.4",
@@ -60,9 +66,12 @@
         "@ztl-uwu/nuxt-content": "^2.13.7",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
+        "dayjs": "^1.11.13",
         "fontaine": "^0.6.0",
         "marked": "^15.0.12",
         "nuxt-og-image": "^5.1.6",
+        "rehype": "^13.0.2",
+        "rehype-highlight": "^7.0.2",
         "reka-ui": "^2.3.0",
         "shadcn-nuxt": "^2.2.0",
         "tailwind-merge": "^3.3.0",

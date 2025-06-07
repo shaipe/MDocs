@@ -1,9 +1,8 @@
 export default defineAppConfig({
     shadcnDocs: {
         site: {
-            name: 'shadcn-docs',
-            description:
-                'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+            name: '宏推客关中心',
+            description: '宏推客关中心',
             ogImage: '/hero.png',
             ogImageComponent: 'ShadcnDocs',
             ogImageColor: 'light',
@@ -21,13 +20,13 @@ export default defineAppConfig({
         banner: {
             enable: false,
             showClose: true,
-            content: 'Welcome to **shadcn-docs-nuxt**',
-            to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+            content: 'Welcome to **宏推-nuxt**',
+            to: 'https://github.com/shaipe/MDocs',
             target: '_blank',
             border: true,
         },
         header: {
-            title: 'shadcn-docs',
+            title: '宏推-客户关怀',
             showTitle: true,
             logo: {
                 light: '/logo.svg',
@@ -41,12 +40,12 @@ export default defineAppConfig({
             },
             nav: [
                 {
-                    title: 'Docs',
+                    title: '操作手册',
                     links: [
                         {
                             title: 'Getting Started',
-                            to: '/getting-started',
-                            description: 'Start building your document with shadcn-docs-nuxt',
+                            to: 'https://docs.htui.tech/getting-started',
+                            description: 'Start building your document with 宏推-nuxt',
                             icon: 'lucide:rocket',
                         },
                         {
@@ -57,7 +56,7 @@ export default defineAppConfig({
                         },
                         {
                             title: 'API',
-                            to: '/api/configuration/shadcn-docs',
+                            to: '/apiDoc/configuration/宏推',
                             description: 'Discover the configurations and exposed APIs.',
                             target: '_self',
                             icon: 'lucide:code',
@@ -65,7 +64,7 @@ export default defineAppConfig({
                     ],
                 },
                 {
-                    title: 'Credits',
+                    title: '开放平台',
                     links: [
                         {
                             title: 'shadcn-ui',
@@ -94,21 +93,21 @@ export default defineAppConfig({
                     ],
                 },
                 {
-                    title: 'Blog',
+                    title: '技术文章',
                     to: '/blog',
                     target: '_self',
                     showLinkIcon: false,
                 },
             ],
             links: [
-                {
-                    icon: 'lucide:coffee',
-                    to: 'https://ko-fi.com/ztl_uwu',
-                    target: '_blank',
-                },
+                // {
+                //     icon: 'lucide:coffee',
+                //     to: 'https://ko-fi.com/ztl_uwu',
+                //     target: '_blank',
+                // },
                 {
                     icon: 'lucide:github',
-                    to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+                    to: 'https://github.com/shaipe/MDocs',
                     target: '_blank',
                 },
             ],
@@ -126,7 +125,7 @@ export default defineAppConfig({
             codeCopyIcon: 'lucide:clipboard',
             editLink: {
                 enable: true,
-                pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/www/content/:path',
+                pattern: 'https://github.com/shaipe/MDocs/edit/main/content/:path',
                 text: 'Edit this page',
                 icon: 'lucide:square-pen',
                 placement: ['docsFooter'],
@@ -178,32 +177,32 @@ export default defineAppConfig({
             },
         },
         footer: {
-            credits: 'FOOTER_CREDIT',
+            credits: 'copyright 2021-2025 宏推科技',
             links: [
-                {
-                    icon: 'lucide:heart',
-                    title: 'Sponsor Me',
-                    to: 'https://ko-fi.com/ztl_uwu',
-                    target: '_blank',
-                },
+                // {
+                //     icon: 'lucide:heart',
+                //     title: 'Sponsor Me',
+                //     to: 'https://ko-fi.com/ztl_uwu',
+                //     target: '_blank',
+                // },
                 {
                     icon: 'lucide:twitter',
-                    to: 'https://x.com/ZTL_UwU',
+                    to: 'https://x.com/shaipe',
                     target: '_blank',
                 },
-                {
-                    icon: 'lucide-lab:butterfly',
-                    to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
-                    target: '_blank',
-                },
-                {
-                    icon: 'simple-icons:discord',
-                    to: 'https://discord.gg/9P5HzAz8DT',
-                    target: '_blank',
-                },
+                // {
+                //     icon: 'lucide-lab:butterfly',
+                //     to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
+                //     target: '_blank',
+                // },
+                // {
+                //     icon: 'simple-icons:discord',
+                //     to: 'https://discord.gg/9P5HzAz8DT',
+                //     target: '_blank',
+                // },
                 {
                     icon: 'lucide:github',
-                    to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+                    to: 'https://github.com/shaipe/MDocs',
                     target: '_blank',
                 },
             ],
@@ -215,41 +214,41 @@ export default defineAppConfig({
             title: 'On this page',
             links: [
                 {
-                    title: 'Star on GitHub',
+                    title: '宏推科技官网',
                     icon: 'lucide:star',
-                    to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+                    to: 'https://www.htui.tech',
                     target: '_blank',
                     showLinkIcon: true,
                 },
                 {
-                    title: 'Create Issues',
+                    title: '宏推公众号',
                     icon: 'lucide:circle-dot',
-                    to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+                    to: 'https://github.com/shaipe/MDocs/issues',
                     target: '_blank',
                     showLinkIcon: true,
                 },
             ],
             iconLinks: [
-                {
-                    icon: 'lucide:coffee',
-                    to: 'https://ko-fi.com/ztl_uwu',
-                    target: '_blank',
-                },
+                // {
+                //     icon: 'lucide:coffee',
+                //     to: 'https://ko-fi.com/ztl_uwu',
+                //     target: '_blank',
+                // },
                 {
                     icon: 'lucide:twitter',
-                    to: 'https://x.com/ZTL_UwU',
+                    to: 'https://x.com/shaipe',
                     target: '_blank',
                 },
-                {
-                    icon: 'lucide-lab:butterfly',
-                    to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
-                    target: '_blank',
-                },
-                {
-                    icon: 'simple-icons:discord',
-                    to: 'https://discord.gg/9P5HzAz8DT',
-                    target: '_blank',
-                },
+                // {
+                //     icon: 'lucide-lab:butterfly',
+                //     to: 'https://bsky.app/profile/ztl-uwu.bsky.social',
+                //     target: '_blank',
+                // },
+                // {
+                //     icon: 'simple-icons:discord',
+                //     to: 'https://discord.gg/9P5HzAz8DT',
+                //     target: '_blank',
+                // },
             ],
             carbonAds: {
                 enable: true,
@@ -258,7 +257,7 @@ export default defineAppConfig({
                 fallback: false,
                 fallbackMessage: 'Please support us by disabling your ad blocker.',
                 code: 'CW7ITKJN',
-                placement: 'shadcn-docs-nuxtvercelapp',
+                placement: '宏推-nuxtvercelapp',
                 format: 'cover',
             },
         },

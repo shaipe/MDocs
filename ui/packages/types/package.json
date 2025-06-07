@@ -1,19 +1,21 @@
 {
-	"name": "@htui/types",
-	"version": "0.1.0",
-	"type": "module",
-	"main": "index.d.ts",
-	"module": "index.d.ts",
-	"license": "MIT",
-	"author": {
-		"name": "shaipe",
-		"email": "shaipe@sina.com",
-		"url": "https://www.ecdata.cn"
-	},
-	"homepage": "https://www.ecdata.cn",
-	"scripts": {
-		"clean": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf"
-	},
-	"dependencies": {},
-	"devDependencies": {}
+    "name": "@htui/types",
+    "version": "0.1.0",
+    "type": "module",
+    "types": "index.d.ts",
+    "license": "MIT",
+    "author": {
+        "name": "shaipe",
+        "email": "shaipe@sina.com",
+        "url": "https://www.ecdata.cn"
+    },
+    "homepage": "https://www.ecdata.cn",
+    "scripts": {
+        "clean": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "pinia": "^3.0.3",
+        "vue-router": "^4.5.1"
+    }
 }
