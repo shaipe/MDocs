@@ -1,0 +1,25 @@
+{
+    "name": "@htui/request",
+    "version": "1.0.0",
+    "description": "网络请求",
+    "main": "index.ts",
+    "module": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Chengdu HongTui Technology Co., Ltd.",
+    "license": "MIT",
+    "peerDependencies": {
+        "@htui/utils": "workspace:*",
+        "@htui/types": "workspace:*",
+        "axios": "^1.9.0",
+        "qs": "^6.14.0",
+        "@microsoft/fetch-event-source": "2.0.1"
+    },
+    "devDependencies": {
+        "@types/qs": "^6.14.0",
+        "lodash-es": "4.17.21",
+        "@types/lodash-es": "4.17.12"
+    }
+}
